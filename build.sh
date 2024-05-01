@@ -2,6 +2,7 @@
 # exit on error
 set -o errexit
 
+pip install djongo5
 pip install -r requirements.txt
 pip install django-mathfilters
 
